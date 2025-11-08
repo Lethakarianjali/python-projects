@@ -1,88 +1,46 @@
-# 🌟 Smart Expense Tracker
+# 🎯 Number Guessing Game (Python)  
 
-A beginner-friendly yet smart expense tracking application built using Python.  
-This project helps users record, view, and analyze their daily expenses in a simple command-line interface.
-
----
-
-## 🚀 Features
-- Add new expenses dynamically
-- View all expenses neatly in a table-style format
-- Calculate total monthly expenses automatically
-- Beautiful colored output using **Colorama**
-- Stores data permanently in a **CSV file**
+> ⚡ **A fun challenge for your brain — Can you beat the computer at its own game?**  
 
 ---
 
-## 🧠 Skills Demonstrated
-- Python (File Handling, CSV Module)
-- Modular Code Design
-- User Input Handling
-- Clean & Interactive CLI UI
-- Basic Data Persistence
+## 🕹️ **About the Game**
+The Number Guessing Game is a simple yet addictive console game where you must guess the secret number chosen by the computer. Sounds easy? Well… you only get a few tries! 😉
 
 ---
 
-## ⚙️ How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Lethakarianjali/python-projects.git
-
-Choose an option:
-
-1 → View Expenses
-
-2 → Add New Expense
-
-3 → Exit
-
-All data is stored safely in a local expenses.csv file.
-
-🧠 Learning Outcome
-
-Hands-on experience with file handling in Python
-
-Understanding of CSV operations
-
-Basic CRUD logic and user input handling
-
-🌟 Future Enhancements
-
-Add data visualization (monthly expense graphs)
-
-Integrate with a simple UI using Tkinter or Streamlit
-
-Enable expense filtering by date or category
-
-👨‍💻 Author
-
-Anjali Lethakari
-Python Developer | DSA Enthusiast | Lifelong Learner
+## 🚀 **How to Play**
+1. Run the program in your terminal.  
+2. Choose your difficulty level:  
+   - 🟢 **Easy** → More attempts  
+   - 🟡 **Medium** → Fewer attempts  
+   - 🔴 **Hard** → Very limited attempts — not for the faint of heart!  
+3. Enter your guesses.  
+4. The program will tell you if your guess is 📉 too low or 📈 too high.  
+5. Guess the number before you run out of attempts to win! 🎉  
 
 ---
 
-### ✅ **Step 7: Add and Commit Files to GitHub**
-Now that your project files (`expense_tracker.py`, `expenses.csv`, and `README.md`) are ready:
+## 🛠 **Tech Stack**
+- **Language:** Python 3.x  
+- **IDE:** Visual Studio Code  
+- **Platform:** Cross-platform (Windows, Mac, Linux)  
 
-#### Run these commands in your terminal (one by one):
+---
 
+## 📌 **Features**
+✔️ Difficulty selection  
+✔️ Attempts counter  
+✔️ Play again option  
+✔️ Friendly & colorful console messages  
+
+---
+
+## 📷 **Demo Screenshot**
+*(Coming soon — will be added after deployment)*  
+
+---
+
+## ⚡ **Run It Yourself**
 ```bash
-git add .
-git commit -m "Added Smart Expense Tracker project"
-git push
-
-'''
-
-🏁 Step 8: Final Check
-
-Go to your GitHub repository page → refresh it.
-
-You should see:
-
-expense_tracker.py
-
-expenses.csv
-
-README.md (beautifully formatted)
-
-Click on README.md to verify the content.
+python guessing_game.py
